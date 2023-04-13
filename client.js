@@ -10,7 +10,7 @@ const connect = function () {
     conn.setEncoding('utf8');
     
   conn.on('connect', () => {
-    console.log('snek-ily connected');
+    console.log('🐍🐍snek-ily connected🐍🐍');
     conn.write('Name: SGY');
   });
 
