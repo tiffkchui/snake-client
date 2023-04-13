@@ -2,12 +2,16 @@ const IP = '165.227.47.243';
 const PORT = 50541;
 
 const MOVE_UP_KEY = 'w';
+
 const MOVE_LEFT_KEY = 'a';
+
 const MOVE_DOWN_KEY = 's';
+
 const MOVE_RIGHT_KEY = 'd';
+
 const MESSAGES = {
   '1': 'Say: Are you FAANGtastic?',
-  '2': 'Say: It is JavaScript, not Pyyyythoon',
+  '2': 'Say: It is JavaScript, not Pythoon',
   '3': 'Say: Are you a mamba because you can dance!',
   '4': 'Say: hiss-tircal',
   '5': 'Say: not adders, just coders. you ded.'
