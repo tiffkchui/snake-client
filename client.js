@@ -8,10 +8,10 @@ const connect = function () {
       port: 50541
     }); 
 
-    conn.setEncoding('utf8');
+  conn.setEncoding('utf8');
     
   conn.on('connect', () => {
-    console.log('🐍🐍snek-ily connected🐍🐍');
+    console.log('snek-ily connected');
     conn.write('Name: SGY');
   });
 
@@ -20,6 +20,6 @@ const connect = function () {
   });
   
   return conn;
-  
+
 };
 module.exports = { connect };
