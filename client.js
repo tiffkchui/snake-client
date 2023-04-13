@@ -1,4 +1,5 @@
 const net = require("net");
+const { IP, PORT } = require('./constants');
 
 
 const connect = function () {
@@ -18,13 +19,6 @@ const connect = function () {
     console.log('Server says: ', data);
   });
   
-
-  conn.setEncoding("utf8");
   return conn;
-
 };
-
-console.log("Connecting ...");
-connect(); 
-
 module.exports = { connect };
